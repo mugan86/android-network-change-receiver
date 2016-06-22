@@ -39,12 +39,12 @@ public class NetworkUtil {
         String status = null;
         if (conn == NetworkUtil.TYPE_WIFI) {
             //status = "Wifi enabled";
-            status = "Internet connection available (WIFI)";
+            status = Constants.CONNECT_TO_WIFI;
         } else if (conn == NetworkUtil.TYPE_MOBILE) {
             //status = "Mobile data enabled";
-            status = "Internet connection available (MOBILE)";
+            status = Constants.CONNECT_TO_MOBILE;
         } else if (conn == NetworkUtil.TYPE_NOT_CONNECTED) {
-            status = "Not connected to Internet";
+            status = Constants.NOT_CONNECT;
         }
         return status;
     }
