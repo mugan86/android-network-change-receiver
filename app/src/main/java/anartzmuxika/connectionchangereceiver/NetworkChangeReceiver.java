@@ -19,7 +19,7 @@ public class NetworkChangeReceiver extends BroadcastReceiver {
 
         Log.e("Receiver ", "" + status);
 
-        if (status.equals("Not connected to Internet")) {
+        if (status.equals(Constants.NOT_CONNECT)) {
             Log.e("Receiver ", "not connction");// your code when internet lost
 
 
