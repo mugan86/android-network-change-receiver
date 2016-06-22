@@ -4,7 +4,7 @@
 
 * Developed in Android Studio IDE 2.2 Preview 3 (version 7 June 2016)
 
-#Project Description.#
+###Project Description.###
 
 * Simple example where we can record events of connection status when changes occur in it.
   
