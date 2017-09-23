@@ -2,9 +2,9 @@
 
 ### IDE version ###
 
-* Developed in Android Studio IDE 2.2.2 (version 18 October 2016)
+* Developed in Android Studio IDE 2.2.3 (version 23 September 2017)
 
-###Project Description.###
+### Project Description. ###
 
 * Simple example where we can record events of connection status when changes occur in it.
   
