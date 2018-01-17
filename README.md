@@ -1,5 +1,10 @@
 # Network Connection Change Receiver example APP #
 
+### TODO in future ###
+
+* Convert to Kotlin.
+* Create library to distribute.
+
 ### !!!! Adapt to Android N devices!!! ###
 
 android.net.conn.CONNECTIVITY_CHANGE remove from Manifest,
