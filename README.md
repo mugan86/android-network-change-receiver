@@ -11,7 +11,7 @@ android.net.conn.CONNECTIVITY_CHANGE remove from Manifest,
 
 ### IDE version ###
 
-* Developed in Android Studio IDE 2.2.3 (version 25 September 2017)
+* Developed in Android Studio IDE 3.0.1 (version 9 November 2017)
 
 ### Project Description. ###
 
