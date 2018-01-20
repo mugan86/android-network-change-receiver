@@ -2,8 +2,8 @@
 
 ### TODO in future ###
 
-* Convert to Kotlin.
-* Create library to distribute.
+* Convert to Kotlin.                    :white_check_mark:
+* Create library to distribute.         :x:
 
 ### !!!! Adapt to Android N devices!!! ###
 
