@@ -1,9 +1,13 @@
-package anartzmuxika.connectionchangereceiver;
+package anartzmuxika.connectionchangereceiver.services;
 
 import android.content.BroadcastReceiver;
 import android.content.Context;
 import android.content.Intent;
 import android.util.Log;
+
+import anartzmuxika.connectionchangereceiver.data.Constants;
+import anartzmuxika.connectionchangereceiver.ui.MainActivity;
+import anartzmuxika.connectionchangereceiver.utils.NetworkUtil;
 
 /***********************************************
  * Created by anartzmugika on 22/6/16.
