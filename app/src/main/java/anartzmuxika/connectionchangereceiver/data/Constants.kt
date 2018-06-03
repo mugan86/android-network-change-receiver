@@ -7,8 +7,8 @@ package anartzmuxika.connectionchangereceiver.data
 
 object Constants {
 
-    val CONNECT_TO_WIFI = "WIFI"
-    val CONNECT_TO_MOBILE = "MOBILE"
-    val NOT_CONNECT = "NOT_CONNECT"
-    val CONNECTIVITY_ACTION = "android.net.conn.CONNECTIVITY_CHANGE"
+    const val CONNECT_TO_WIFI = "WIFI"
+    const val CONNECT_TO_MOBILE = "MOBILE"
+    const val NOT_CONNECT = "NOT_CONNECT"
+    const val CONNECTIVITY_ACTION = "android.net.conn.CONNECTIVITY_CHANGE"
 }
