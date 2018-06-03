@@ -9,9 +9,9 @@
 
     <TextView
         android:scrollbars = "vertical"
-        android:id="@+id/log_network"
+        android:id="@+id/logText"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:text="Internet Connection State Log." />
 
 </ScrollView>
