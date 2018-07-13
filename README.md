@@ -7,11 +7,11 @@
 
 ### !!!! Adapt to Android N devices!!! ###
 
-android.net.conn.CONNECTIVITY_CHANGE remove from Manifest,
+**android.net.conn.CONNECTIVITY_CHANGE remove from Manifest**
 
 ### IDE version ###
 
-* Developed in Android Studio IDE 3.0.1 (version 9 November 2017)
+* Developed in Android Studio IDE 3.1.3 (version 4 June 2018)
 
 ### Project Description. ###
 
@@ -20,3 +20,8 @@ android.net.conn.CONNECTIVITY_CHANGE remove from Manifest,
 * The connection types that will check access, data connection (mobile - 3G, 4G, ...).
 
 * If Mobile connection, return 3G, 4G or unknown connection (inside Mobile type connection)
+
+### Example using emulator in Android N Device
+
+
+![Example](https://github.com/mugan86/android-network-change-receiver/blob/kotlin/captures/Screenshot_1531492756.png)
