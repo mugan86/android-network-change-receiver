@@ -2,7 +2,7 @@
 
 ### TODO in future ###
 
-* Convert to Kotlin.                    :white_check_mark:
+* [Convert to Kotlin.](https://github.com/mugan86/android-network-change-receiver/tree/kotlin)                    :white_check_mark:
 * Create library to distribute.         :x:
 
 ### !!!! Adapt to Android N devices!!! ###
@@ -11,7 +11,7 @@ android.net.conn.CONNECTIVITY_CHANGE remove from Manifest,
 
 ### IDE version ###
 
-* Developed in Android Studio IDE 2.2.3 (version 25 September 2017)
+* Developed in Android Studio IDE 3.1.3 (version 4 June 2018)
 
 ### Project Description. ###
 
@@ -20,3 +20,7 @@ android.net.conn.CONNECTIVITY_CHANGE remove from Manifest,
 * The connection types that will check access, data connection (mobile - 3G, 4G, ...).
 
 * If Mobile connection, return 3G, 4G or unknown connection (inside Mobile type connection)
+
+### Screenshot to show example in Android N Device
+
+![ScreenShot](https://github.com/mugan86/android-network-change-receiver/raw/master/captures/Screenshot_1531493848.png)

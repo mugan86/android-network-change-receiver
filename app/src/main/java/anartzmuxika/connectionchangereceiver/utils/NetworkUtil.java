@@ -17,15 +17,16 @@ import anartzmuxika.connectionchangereceiver.data.Constants;
 
 public class NetworkUtil {
 
-    public static int TYPE_WIFI = 1;
-    public static int TYPE_MOBILE = 2;
-    public static int TYPE_NOT_CONNECTED = 0;
+    private static int TYPE_WIFI = 1;
+    private static int TYPE_MOBILE = 2;
+    private static int TYPE_NOT_CONNECTED = 0;
 
     public static int getConnectivityStatus(Context context) {
 
         ConnectivityManager cm = (ConnectivityManager) context
                 .getSystemService(Context.CONNECTIVITY_SERVICE);
 
+        assert cm != null;
         NetworkInfo activeNetwork = cm.getActiveNetworkInfo();
 
         if (null != activeNetwork) {
@@ -58,8 +59,9 @@ public class NetworkUtil {
         return status + " / " + DateTime.getCurrentDataTime();
     }
 
-    public static String getNetworkClass(Context context) {
+    private static String getNetworkClass(Context context) {
         ConnectivityManager cm = (ConnectivityManager) context.getSystemService(Context.CONNECTIVITY_SERVICE);
+        assert cm != null;
         NetworkInfo info = cm.getActiveNetworkInfo();
         if(info == null || !info.isConnected())
             return "-"; //not connected
